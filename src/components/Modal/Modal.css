@@ -1,0 +1,39 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(6px) brightness(0.5);
+}
+
+.modal__content {
+  padding: 16px;
+  height: auto;
+  width: auto;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.modal__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.modal__title {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.modal__close {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 32px;
+}

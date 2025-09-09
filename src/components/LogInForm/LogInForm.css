@@ -1,0 +1,11 @@
+.form {
+  max-width: 600px;
+  width: calc(100vw - 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form__error {
+  color: var(--danger-color);
+}

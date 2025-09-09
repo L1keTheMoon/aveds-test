@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "login": "ivanov_ivan",
+      "password": "Ivanov11",
+      "name": "Иван"
+    },
+    {
+      "login": "petrova_anna",
+      "password": "Anna2024",
+      "name": "Анна"
+    },
+    {
+      "login": "sidorov_max",
+      "password": "Maxim123",
+      "name": "Максим"
+    },
+    {
+      "login": "smirnova_olga",
+      "password": "Olga456S",
+      "name": "Ольга"
+    },
+    {
+      "login": "kuznetsov_d",
+      "password": "Dmitry7K",
+      "name": "Дмитрий"
+    }
+  ]
+}
