@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/Logo.svg";
 import Button from "@/components/Button/Button";
 import useLogInButton from "@/hooks/useLogInButton";
 import "./Header.css";
