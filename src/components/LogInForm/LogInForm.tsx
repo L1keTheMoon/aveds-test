@@ -46,6 +46,7 @@ export default function LogInForm() {
     <form className="form" onSubmit={submitHandler}>
       <Input
         type="text"
+        autoComplete="username"
         value={login}
         name="login"
         placeholder="Логин"
@@ -55,7 +56,7 @@ export default function LogInForm() {
         }}
       />
       <Input
-        type="text"
+        type="password"
         value={password}
         name="password"
         placeholder="Пароль"

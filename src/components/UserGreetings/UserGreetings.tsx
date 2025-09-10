@@ -20,14 +20,16 @@ export default function UserGreetings({
 
   return (
     <div className="container">
-      <Title>{titleText}</Title>
-      <div className="greetings__button-box">
-        <Button onClick={handleClick}>
-          {isLogined ? logoutButtonText : "Войти"}
-        </Button>
-        <Button variant="outline" onClick={() => navigate("/contacts")}>
-          {contactsButtonText}
-        </Button>
+      <div>
+        <Title>{titleText}</Title>
+        <div className="greetings__button-box">
+          <Button onClick={handleClick}>
+            {isLogined ? logoutButtonText : "Войти"}
+          </Button>
+          <Button variant="outline" onClick={() => navigate("/contacts")}>
+            {contactsButtonText}
+          </Button>
+        </div>
       </div>
     </div>
   );

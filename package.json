@@ -2,9 +2,11 @@
   "name": "aveds-test",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://github.com/L1keTheMoon/aveds-test",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
+    "host": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
