@@ -24,7 +24,7 @@ export default function LogInForm() {
       console.log("object");
       return;
     }
-    fetch("/src/data/users.json")
+    fetch("/aveds-test/src/data/users.json")
       .then((response) => response.json())
       .then((jsonData: { users: User[] }) => {
         const user = jsonData.users.find((user) => user.login === login);

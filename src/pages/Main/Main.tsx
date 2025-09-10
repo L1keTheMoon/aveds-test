@@ -1,16 +1,21 @@
 import Card from "@/components/Card/Card";
-import UserGreetings from "@/components/UserGreetings/UserGreetings";
+import ActionButtons from "@/components/ActionButtons/ActionButtons";
+import Title from "@/components/Title/Title";
 import { cards } from "./cards";
 import "./Main.css";
 
 export default function Main() {
   return (
     <>
-      <UserGreetings
-        titleText="Место для получения медицинской помощи"
-        contactsButtonText="Контакты"
-        logoutButtonText="Выйти"
-      />
+      <div className="container">
+        <div>
+          <Title>Место для получения медицинской помощи</Title>
+          <ActionButtons
+            contactsButtonText="Контакты"
+            logoutButtonText="Выйти"
+          />
+        </div>
+      </div>
       <ul className="services">
         {cards.map((card) => (
           <li key={card.title}>

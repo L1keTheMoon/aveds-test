@@ -13,7 +13,7 @@ function App() {
   const { isModalOpen } = useAppSelector((store) => store.modal);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/aveds-test/">
       <Header />
       <main className="main-content">
         <Routes>

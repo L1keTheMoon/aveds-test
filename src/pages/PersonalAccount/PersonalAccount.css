@@ -1,0 +1,9 @@
+.personal-account__title {
+  height: 71px;
+}
+
+@media (max-width: 550px) {
+  .personal-account__title {
+    height: auto;
+  }
+}

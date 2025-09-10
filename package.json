@@ -2,7 +2,7 @@
   "name": "aveds-test",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://github.com/L1keTheMoon/aveds-test",
+  "homepage": "https://github.com/L1keTheMoon/aveds-test/",
   "type": "module",
   "scripts": {
     "dev": "vite",
