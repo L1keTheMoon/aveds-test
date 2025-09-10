@@ -1,6 +1,11 @@
 {
   "users": [
     {
+      "login": "kuznetsov_s",
+      "password": "Sergey7K",
+      "name": "Сергай"
+    },
+    {
       "login": "ivanov_ivan",
       "password": "Ivanov11",
       "name": "Иван"
@@ -19,11 +24,6 @@
       "login": "smirnova_olga",
       "password": "Olga456S",
       "name": "Ольга"
-    },
-    {
-      "login": "kuznetsov_d",
-      "password": "Dmitry7K",
-      "name": "Дмитрий"
     }
   ]
 }

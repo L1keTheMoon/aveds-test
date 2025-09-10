@@ -19,3 +19,12 @@
 
 ## Требования к коду
 Код выложить на GitHub с Readme.md
+
+## Список пользователей под которыми можно залогиниться
+| Логин | Пароль | Имя |
+|-------|--------|-----|
+| kuznetsov_s | Sergey7K | Сергей |
+| ivanov_ivan | Ivanov11 | Иван |
+| petrova_anna | Anna2024 | Анна |
+| sidorov_max | Maxim123 | Максим |
+| smirnova_olga | Olga456S | Ольга |
